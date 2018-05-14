@@ -1,7 +1,27 @@
 {
-  "name": "$package_name$",
-  "version": "0.0.1",
+  "name": "pwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "date.js",
   "dependencies": {
-    $END$
-  }
+    "autoprefixer": "^8.5.0",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "jshint": "^2.9.5",
+    "projekt": "^0.1.48"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "projekt"
+  },
+  "author": "",
+  "license": "ISC"
 }

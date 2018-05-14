@@ -1,0 +1,16 @@
+.too {
+  width: 20;
+  height: 100%;
+  color: red; }
+  .too:hover {
+    color: darken, 50%; }
+
+body {
+  background-color: blue; }
+
+h1 {
+  color: red;
+  font-size: larger; }
+
+div {
+  display: flex; }

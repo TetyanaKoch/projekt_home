@@ -1,0 +1,260 @@
+@charset "UTF-8";
+.clearfix {
+  clear: both; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h2, h3 {
+  color: #9A7C9A; }
+
+h2 {
+  text-align: center; }
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto; }
+
+header {
+  background-image: url("../../image/Header1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 10px;
+  opacity: 0.8; }
+
+/*Navigation*/
+.hauptmenue, .navi_responsiv {
+  display: none;
+  margin: 0; }
+
+.icon:hover > .navi_responsiv {
+  display: block; }
+
+.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.navi a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  width: auto;
+  position: relative;
+  padding: 5px; }
+
+/*Index-Page*/
+.content {
+  padding: 10px; }
+
+.box_list1, .box_list2 {
+  background-color: #D9D9D9;
+  padding: 10px;
+  margin: 0.1em;
+  box-sizing: border-box;
+  border-bottom: solid #9A7C9A;
+  border-top: solid #9A7C9A; }
+
+.sidebar {
+  padding: 20px;
+  background-color: #D9D9D9;
+  box-sizing: border-box; }
+
+/*angebot_Page*/
+.bk1 {
+  background-color: #D9D9D9;
+  border-bottom: solid #9A7C9A;
+  border-top: solid #9A7C9A;
+  margin-bottom: 40px;
+  margin-top: 0; }
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0; }
+
+.bk1_txt {
+  padding: 20px;
+  margin: 0; }
+
+.icon1 {
+  width: 50px;
+  height: auto;
+  margin: 10px;
+  float: left; }
+
+/*Kontakt-Page*/
+/*Tabelle*/
+table, th, td {
+  border: 1px solid #9A7C9A; }
+
+tr, td, th {
+  width: 10%;
+  padding: 10px; }
+
+.lesson {
+  background-color: #E5D9E5; }
+
+/*Formular*/
+form {
+  background-color: #D9D9D9;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box; }
+
+select, label.form1, input.form3, div.sel {
+  float: left; }
+
+label {
+  width: 25%; }
+
+input.form3 {
+  width: 65%;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  Border: 2px solid #9A7C9A;
+  border-radius: 4px; }
+
+/*Footer*/
+footer {
+  background-color: #9A7C9A;
+  padding: 10px;
+  margin: 0; }
+
+.fn {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.foot1 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block; }
+
+/*Desktop Version*/
+@media screen and (min-width: 769px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto; }
+  /* Header und Hamburger-Menü*/
+  .icon_nav {
+    display: none; }
+  /*Navigation*/
+  .hauptmenue {
+    display: none; }
+  .icon_nav:hover {
+    display: block;
+    position: relative; }
+  .level1, .level2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .navi_level1 a, .navi_level2 a {
+    text-decoration: none;
+    background-color: #9A7C9A;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    display: block; }
+  /*Navi 1 Ebene*/
+  .hauptmenue {
+    display: block; }
+  .navi_level1 {
+    float: left;
+    width: 33.33%;
+    position: relative; }
+  .navi_level1 a {
+    display: block;
+    padding: 10px;
+    background-color: #9A7C9A;
+    text-align: center; }
+  .navi_level1 a:hover {
+    background: #E5D9E5; }
+  .navi_level1 a.active:active {
+    background: #E5D9E5; }
+  /* Navi zweite Ebene*/
+  #hauptmenue .level1 {
+    position: relative; }
+  #hauptmenue .level2 {
+    display: none;
+    position: absolute;
+    width: 100%; }
+  #hauptmenue > ul.level1 > li.navi_level1:hover > ul.level2 {
+    display: block; }
+  .level2 .navi_level2 {
+    float: none; }
+  /*Index-Page*/
+  .content {
+    width: 66.66%;
+    float: left; }
+  .box_list1, .box_list2 {
+    width: 49%;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    margin: 0.1em; }
+  .sidebar {
+    width: 33.33%;
+    height: auto;
+    float: left; }
+  /*angebot_Page*/
+  .flex-container {
+    display: flex;
+    width: 66%;
+    float: left;
+    flex-wrap: wrap; }
+  .flex-preise {
+    float: left;
+    width: 33%;
+    margin-left: 5px; }
+  .ptxt {
+    vertical-align: middle; }
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0; }
+  .bk1 {
+    box-sizing: border-box;
+    width: 45%;
+    border-bottom: solid #9A7C9A;
+    background-color: #D9D9D9;
+    margin: 0.5em; }
+  /*Kontakt-Page*/
+  /*Tabelle*/
+  table, th, td {
+    border: 1px solid #9A7C9A; }
+  tr, td, th {
+    width: 10%;
+    padding: 10px; }
+  .lesson {
+    background-color: #E5D9E5; }
+  /*Formular*/
+  form {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box; }
+  select, label.form1, input.form3, div.sel {
+    float: left; }
+  label {
+    width: 25%; }
+  input.form3 {
+    width: 65%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    Border: 2px solid #9A7C9A;
+    border-radius: 4px; }
+  /*Footer*/
+  .foot1 {
+    float: left;
+    width: 20%; } }

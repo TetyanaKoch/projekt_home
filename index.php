@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link href="projekt.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app/css/main.css">
     <link href="normalize.css" type="text/css" rel="stylesheet">
     <title>Page </title>
 </head>
@@ -18,7 +18,7 @@
        <?php include'navigation.php';?>
 
     </nav>
-
+    <h1><?= '© ', date('Y')?></h1>
     <main>
         <div class="content">
         <h1>XXXXXXXXXXX </h1>
@@ -29,8 +29,8 @@
             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
         </p>
         <div class="box_list1" >
-            <h2>Werdegang</h2>
-           
+            <h2>hallo</h2>
+
             <ul>
                 <li>September 2015 Gründung XXXX-Ballettschule</li>
                 <li>seit 2012 Ballettunterricht in diversen Eislauf-Clubs und Ballettschulen</li>
@@ -41,12 +41,11 @@
         </div>
             <div class="box_list2">
                 <h2>Choreographien</h2>
-               
+
                 <ul>
                     <li>2015 Cello Suites (In den Winden im Nichts), Teatro alla Scala, Mailand, Italien</li>
                     <li>2014 Peer Gynt, Finnische Nationaloper, Helsinki, Finnland</li>
                     <li>2013 Cello Suites (In den Winden im Nichts), Badisches Staatstheater, Karlsruhe, Deutschland</li>
-
                 </ul>
         </div>
             <div class="clearfix"></div>
@@ -75,6 +74,7 @@
 
 
 </div>
+<script src = date.js></script>
 
 </body>
 
